@@ -53,49 +53,7 @@ function Experience() {
                     color: 'css',
                     icon: 'flex'
                 }
-            ],
-            // tools: [
-            //     {
-            //         name: 'Chart.js',
-            //         color: 'angular',
-            //         icon: 'chart'
-            //     },
-            //     {
-            //         name: 'MQTT',
-            //         color: 'js',
-            //         icon: 'mqtt'
-            //     },
-            //     {
-            //         name: 'Angular calendar',
-            //         color: 'angular',
-            //         icon: 'calendar'
-            //     },
-            //     {
-            //         name: 'Testing Jasmin',
-            //         color: 'tailwind',
-            //         icon: 'testing'
-            //     },
-            //     {
-            //         name: 'Figma',
-            //         color: 'html',
-            //         icon: 'figma'
-            //     },
-            //     {
-            //         name: 'Responsive Desing',
-            //         color: 'ts',
-            //         icon: 'responsive'
-            //     }
-            // ],
-            // images: [
-            //     {
-            //         alt: 'Company logo',
-            //         src: '../../assets/viberr.png'
-            //     },
-            //     {
-            //         alt: 'Plataforma',
-            //         src: '../../assets/viberr.png'
-            //     }
-            // ]
+            ]
         },
         {
             id: '02',

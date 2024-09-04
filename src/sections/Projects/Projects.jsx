@@ -32,11 +32,11 @@ function Projects() {
             images: [
                 {
                     alt: 'trello login',
-                    src: '/src/assets/trello_login.png'
+                    src: '/assets/trello_login.png'
                 },
                 {
                     alt: 'trello board',
-                    src: '/src/assets/trello_board.png'
+                    src: '/assets/trello_board.png'
                 }
             ]
         },
@@ -63,11 +63,11 @@ function Projects() {
             images: [
                 {
                     alt: 'Eco Store',
-                    src: '/src/assets/eco_home.png'
+                    src: '/assets/eco_home.png'
                 },
                 {
                     alt: 'Eco Store',
-                    src: '/src/assets/eco_products.png'
+                    src: '/assets/eco_products.png'
                 }
             ]
         },
@@ -94,11 +94,11 @@ function Projects() {
             images: [
                 {
                     alt: 'Portfolio home',
-                    src: '/src/assets/portfolio_home.png'
+                    src: '/assets/portfolio_home.png'
                 },
                 {
                     alt: 'Portfolio grid',
-                    src: '/src/assets/portfolio_grid.png'
+                    src: '/assets/portfolio_grid.png'
                 }
             ]
         }

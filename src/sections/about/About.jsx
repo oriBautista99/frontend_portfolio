@@ -196,16 +196,6 @@ function About() {
                     />
                 </div>
             </div> 
-            {/* <div className='col-start-2 col-span-1 flex flex-col'>
-                <h4>Frameworks and Libraries</h4>
-                <div className=' flex flex-wrap gap-2'>
-                    {listFrameworks}
-                </div>
-                <h4>Frontend Technologies and Languages</h4>
-                <div className=' flex flex-wrap gap-2'>
-                    {listLenguajes}
-                </div>
-            </div>             */}
         </div>
 
     </section>

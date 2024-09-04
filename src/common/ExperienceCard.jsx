@@ -6,7 +6,7 @@ function ExperienceCard({company, position, time, description, skills, tasks}) {
 
     const {theme} = useTheme();
 
-    const iconCheck = theme == 'light' ? '/src/assets/check.svg' : '/src/assets/check_dark.svg';
+    const iconCheck = theme == 'light' ? '/assets/check.svg' : '/assets/check_dark.svg';
   
     const listSkills = skills.map((skill) => 
         <SkillList key={skill.name} icon={skill.icon} skill={skill.name} color={skill.color} />
