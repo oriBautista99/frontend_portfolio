@@ -11,7 +11,7 @@ function Navbar() {
 
     const currentLanguage = i18n.language;
     const oppositeLanguage = currentLanguage === 'en' ? 'es' : 'en';
-    const oppositeLanguageIcon = currentLanguage === 'en' ? '/es.svg' : '/en.svg';
+    const oppositeLanguageIcon = currentLanguage === 'en' ? '/assets/es.svg' : '/assets/en.svg';
 
     const changeLanguage = (language) => {
       i18n.changeLanguage(language);

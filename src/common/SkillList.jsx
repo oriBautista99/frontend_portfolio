@@ -5,13 +5,13 @@ import {useTheme} from '../common/ThemeContext';
 function SkillList({icon,skill,color, type, number}) {
 
   const {theme} = useTheme();
-  const iconAngular = theme == 'light' ? '/src/assets/angular.svg' : '/src/assets/angular_dark.svg';
-  const iconTailwind = theme == 'light' ? '/src/assets/tailwind.svg' : '/src/assets/tailwind_dark.svg';
-  const iconScss = theme == 'light' ? '/src/assets/scss.svg' : '/src/assets/scss_dark.svg';
-  const iconTs = theme == 'light' ? '/src/assets/typescript.svg' : '/src/assets/typescript_dark.svg';
-  const iconTesting = theme == 'light' ? '/src/assets/testing.svg' : '/src/assets/testing_dark.svg';
-  const iconFigma = theme == 'light' ? '/src/assets/figma.svg' : '/src/assets/figma_dark.svg';
-  const iconResponsive = theme == 'light' ? '/src/assets/responsive.svg' : '/src/assets/responsive_dark.svg';
+  const iconAngular = theme == 'light' ? '/assets/angular.svg' : '/assets/angular_dark.svg';
+  const iconTailwind = theme == 'light' ? '/assets/tailwind.svg' : '/assets/tailwind_dark.svg';
+  const iconScss = theme == 'light' ? '/assets/scss.svg' : '/assets/scss_dark.svg';
+  const iconTs = theme == 'light' ? '/assets/typescript.svg' : '/assets/typescript_dark.svg';
+  const iconTesting = theme == 'light' ? '/assets/testing.svg' : '/assets/testing_dark.svg';
+  const iconFigma = theme == 'light' ? '/assets/figma.svg' : '/assets/figma_dark.svg';
+  const iconResponsive = theme == 'light' ? '/assets/responsive.svg' : '/assets/responsive_dark.svg';
 
   const bgColor = `bg-${color}`;
 

@@ -14,8 +14,7 @@ function Hero() {
     return (
     <section id='hero' className='flex flex-col justify-center gap-5 text-left pt-36'>
         <div className='relative flex justify-start items-center gap-8'>
-            {/* <div className={styles.hero}></div> */}
-            <img className='object-cover h-16 w-16 rounded-full align-middle' src="/src/assets/my.jpg" alt="photo profile" />
+            <img className='object-cover h-16 w-16 rounded-full align-middle' src="/assets/my.jpg" alt="photo profile" />
             <span className='transition ease-in-out delay-150 bg-green-300 bg-opacity-25 border-2 border-green-500 py-1 px-4 rounded-full text-sm font-normal hover:scale-110 cursor-pointer'>{t('OPENTOWORK')}</span>
         </div>
         <div className='w-full flex flex-col gap-5'>
