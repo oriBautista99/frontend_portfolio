@@ -1,4 +1,5 @@
 import './App.css'
+import Languaje from './common/Languaje';
 import About from './sections/about/About';
 import Experience from './sections/Experience/Experience';
 import Footer from './sections/Footer/Footer';
@@ -16,6 +17,7 @@ function App() {
       <Projects/>
       <About/>
       <Footer/>
+      <Languaje/>
     </>
   )
 }
