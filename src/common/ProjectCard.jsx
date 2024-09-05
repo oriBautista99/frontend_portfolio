@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 import { UilLink } from '@iconscout/react-unicons'
 import { UilGithub } from '@iconscout/react-unicons'
 import {useTheme} from '../common/ThemeContext';
+import { useTranslation } from "react-i18next";
 
 function ProjectCard({image, link, repositorie, title, description, skills}) {
 
   const {theme} = useTheme();
+  const { t } = useTranslation();
+
   const listSkills = skills.map((skill) => 
     <SkillList key={skill.name} icon={skill.icon} skill={skill.name} color={skill.color} />
   );
@@ -22,13 +25,13 @@ function ProjectCard({image, link, repositorie, title, description, skills}) {
         <div className="flex flex-wrap justify-between gap-2">
           {listSkills}
         </div>
-        <p className="text-base text-left">{description}</p>
+        <p className="text-base text-left">{t(description)}</p>
         <div className="flex items-center space-x-2">
-          <a className="flex space-x-2 bg-btnColor bg-opacity-25 p-2 rounded-lg" href={repositorie}>
+          <a className="flex space-x-2 bg-btnColor bg-opacity-25 p-2 rounded-lg" href={repositorie} target="_blank">
             <UilGithub  size="24" color={colorIcon}/>
             <span>Code</span>
           </a>
-          <a className="flex space-x-2 bg-tooterTextColor bg-opacity-25 p-2 rounded-lg" href={link}>
+          <a className="flex space-x-2 bg-tooterTextColor bg-opacity-25 p-2 rounded-lg" href={link} target="_blank">
             <UilLink  size="24" color={colorIcon}/>
             <span>Preview</span>
           </a>

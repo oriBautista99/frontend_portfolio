@@ -1,17 +1,18 @@
+import { useTranslation } from 'react-i18next';
 import ProjectCard from '../../common/ProjectCard';
 import { UilArrow } from '@iconscout/react-unicons'
 
 function Projects() {
+
+    const { t } = useTranslation();
 
     const projectsData = [
         {
             id: '01',
             title: 'Clone Trello',
             link: '#',
-            repositorie: '#',
-            descripcion: `I began my journey at ActionTracker Solutions SL as a frontend developer, 
-            joining the team responsible for developing a Monitoring and Security platform aimed at 
-            large industries.`,
+            repositorie: 'https://github.com/oriBautista99/trello-clone.git',
+            descripcion: `PROJ1`,
             skills: [
                 {
                     name: 'Angular 15',
@@ -43,11 +44,9 @@ function Projects() {
         {
             id: '02',
             title: 'Eco Store',
-            link: '#',
-            repositorie: '#',
-            descripcion: `I began my journey at ActionTracker Solutions SL as a frontend developer, 
-            joining the team responsible for developing a Monitoring and Security platform aimed at 
-            large industries.`,
+            link: 'https://oribautista99.github.io/eco-store/',
+            repositorie: 'https://github.com/oriBautista99/eco-store.git',
+            descripcion: `PROJ2`,
             skills: [
                 {
                     name: 'HTML',
@@ -74,11 +73,9 @@ function Projects() {
         {
             id: '03',
             title: 'Frontend Porfolio',
-            link: '#',
-            repositorie: '#',
-            descripcion: `I began my journey at ActionTracker Solutions SL as a frontend developer, 
-            joining the team responsible for developing a Monitoring and Security platform aimed at 
-            large industries.`,
+            link: 'https://oribautista99.netlify.app/',
+            repositorie: 'https://github.com/oriBautista99/frontend_portfolio.git',
+            descripcion: `PROJ3`,
             skills: [
                 {
                     name: 'React js',
@@ -121,7 +118,7 @@ function Projects() {
     <section id='projects' className='flex flex-col text-center gap-10 pt-20'>
         <div className="flex justify-start items-center gap-2 text-textColor dark:text-textColorDark">
             <UilArrow  size='30'/>
-            <h1 className='text-3xl'>Projects</h1>
+            <h1 className='text-3xl'>{t('PROJECTS')}</h1>
         </div>
         <div className='flex flex-col items-center gap-12'>
             {listProjects}
