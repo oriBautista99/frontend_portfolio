@@ -30,7 +30,7 @@ function Navbar() {
 
     return (
         <nav className='w-full fixed top-0 right-0 flex justify-center items-center z-50'>
-            <ul className={`mt-4 mx-2 px-3 md:px-6 rounded-full md:mx-auto max-w-2xl flex md:items-center gap-2 md:gap-6 font-light tracking-tight text-sm text-textColor dark:text-textColorDark bg-backgroundColor dark:bg-backgroundColorDark bg-opacity-60 dark:bg-opacity-60 dark:backdrop-blur-sm backdrop-blur-sm ${isScrolled ? 'shadow-md shadow-backgroundColorDark/40 dark:shadow-backgroundColor/40 ' : 'bg-transparent'}`}>
+            <ul className={`mt-4 mx-2 px-3 md:px-6 rounded-full md:mx-auto max-w-2xl flex md:items-center gap-3 md:gap-6 font-normal tracking-tight text-sm md:text-base text-textColor dark:text-textColorDark bg-backgroundColor dark:bg-backgroundColorDark bg-opacity-60 dark:bg-opacity-60 dark:backdrop-blur-sm backdrop-blur-sm ${isScrolled ? 'shadow-md shadow-backgroundColorDark/40 dark:shadow-backgroundColor/40 ' : 'bg-transparent'}`}>
                 <li className='cursor-pointer hover:text-btnColor py-2'>
                     <a href="#hero">{t('HOME')}</a>
                 </li>

@@ -4,6 +4,16 @@
     "PROJECTS": "Projects",
     "ABOUT": "About Me",
     "OPENTOWORK": "Open to work",
-    "HELLO": "Hello",
-    "IAM": "I'm Oriana Bautista"
+    "HELLO": "👋 Hi!",
+    "IAM": "I'm Oriana Bautista",
+    "INTRO": "Computer engineering student, entrepreneur and self-taught in this great digital world, with more than 2 years of experience in web application development.",
+    "EXP1":"I started as a Frontend Developer, in the development of a Monitoring and Security platform aimed at large industries. A year later I was assigned as Head of Frontend Development, where I took the responsibility of leading the frontend team. Due to confidentiality contract I can't tell much about my work there 🤫 but in general I can say:",
+    "TASK11":"Part in the development of different modules of the application, using different libraries such as Chart.js for statistical visualization and mqtt.js for communications.",
+    "TASK12":"I made improvements in the responsive design of the app, so I can say that I basically improved 60% of the company's software, until the time of my departure, since when I joined the company the app was in its beta version.",
+    "PROJ1":"Basic clone of an application for task registration and dashboard creation. It has screens for logging, registration, home, dashboards. Created with Angular 15, using TailwindsCss for styles and the Angular Material CDK to add different features like drag and drop.",
+    "PROJ2":"Layout of an organic products store, using HTML and SCSS only. A simple and easy layout following a base design in Figma and adding personal touches to the design.",
+    "PROJ3":"Personal design based on different references on the web, with responsive design. Project in which I put into practice my new knowledge in React js and Tailwind Css creating something simple and functional.",
+    "ABOUTME":"I'm Oriana Bautista, a young latina and computer engineering student, passionate about web development and constantly learning. For more than a year, I led the frontend development team at Action Tracker Solutions, a company based in Barcelona, where I perfected my technical and leadership skills. I am bilingual in Spanish and English, although I am still perfecting my fluency in spoken English. However, I have a solid understanding of the language and I communicate, read and understand effectively. I consider myself an active person, perseverant and constantly updated with new technologies, always looking for ways to integrate them into my personal projects. My goal is to grow professionally within a company that values mutual development, where I can add value and, at the same time, keep learning and evolving.",
+    "FOOTER":"Created in",
+    "CV":"Resume"
 }

@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
 import SkillList from "./SkillList";
 import {useTheme} from '../common/ThemeContext';
+import { useTranslation } from 'react-i18next';
 
 function ExperienceCard({company, position, time, description, skills, tasks}) {
 
     const {theme} = useTheme();
+    const { t } = useTranslation();
 
     const iconCheck = theme == 'light' ? '/assets/check.svg' : '/assets/check_dark.svg';
   
@@ -15,7 +17,7 @@ function ExperienceCard({company, position, time, description, skills, tasks}) {
     const listTask = tasks.map((task,index) => 
         <li key={index} className="flex justify-start items-start gap-2">
           <img className="h-5 mt-1" src={iconCheck} alt="task icon" />
-          <span className="text-left">{task}</span>
+          <span className="text-left">{t(task)}</span>
         </li>
     );
 
@@ -28,7 +30,7 @@ function ExperienceCard({company, position, time, description, skills, tasks}) {
                     <h4 className="font-medium">{company}</h4>
                     <span className="text-left">{time}</span>
                     </div>
-                    <p className="text-base text-left font-normal">{description}</p>          
+                    <p className="text-base text-left font-normal">{t(description)}</p>          
                 </div>
                 <div className="row-span-1 col-span-2">
                     <div className="h-full flex flex-wrap lg:flex-col gap-4 justify-between lg:justify-evenly">

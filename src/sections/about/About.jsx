@@ -1,7 +1,10 @@
 import { UilUserCheck } from '@iconscout/react-unicons';
 import SkillList from '../../common/SkillList';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+
+    const { t } = useTranslation();
 
     const frameworks = [
         {
@@ -76,13 +79,11 @@ function About() {
     <section id='about' className='flex flex-col text-center gap-10 pt-20'>
         <div className="flex justify-start items-center gap-2 text-textColor dark:text-textColorDark">
             <UilUserCheck  size='30'/>
-            <h1 className='text-3xl'>About Me</h1>
+            <h1 className='text-3xl'>{t('ABOUT')}</h1>
         </div>
         <div className='w-full grid grid-cols-a md:grid-cols-2 gap-2'>
-            <div className='col-span-1 text-base font-light text-left'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, voluptatum minus, asperiores atque reprehenderit ad hic at totam adipisci, perferendis laboriosam delectus consequuntur aliquam iste omnis dolorum alias laborum. Fugiat?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ad harum consequatur, quis vero ea accusamus nesciunt maiores. Hic nesciunt enim consectetur rerum eius placeat quo id magni tempora ea!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, impedit in alias, reprehenderit dolores rem ut voluptates facere exercitationem doloremque fuga voluptatibus laboriosam. Nisi blanditiis aspernatur a dolor, deserunt ipsa?</p>
+            <div className='col-span-1 text-base font-normal text-left'>
+                <p>{t('ABOUTME')}</p>
             </div>
             <div className='col-span-1 grid grid-cols-3 grid-rows-4 md:grid-cols-3 md:grid-rows-6 gap-2'>
                 <div className="row-span-2">

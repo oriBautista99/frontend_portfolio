@@ -4,6 +4,16 @@
     "PROJECTS": "Proyectos",
     "ABOUT": "Sobre mi",
     "OPENTOWORK": "Disponible",
-    "HELLO": "Hola",
-    "IAM": "Soy Oriana Bautista"
+    "HELLO": "👋 Hola!",
+    "IAM": "soy Oriana Bautista",
+    "INTRO": "Estudiante de ingeniería informática, emprendedora y autodidacta en este gran mundo digital, con mas 2 años de experiencia en el desarrollo de aplicaciones web.",
+    "EXP1":"Comencé como Desarrollador Frontend, en el desarrollo de una plataforma de Monitorización y Seguridad dirigida a grandes industrias. Un año después fui asignada como Jefe de Desarrollo Frontend, donde asumí la responsabilidad de liderar el equipo frontend. Por contrato de confidencialidad no puedo contar mucho de mi trabajo allí 🤫 pero en general puedo decir:",
+    "TASK11":"Parte en el desarrollo de diferentes módulos de la aplicación, utilizando diferentes librerías como Chart.js para la visualización de estadística y mqtt.js para las comunicaciones.",
+    "TASK12":"Realice mejoras en el diseño responsivo de la app, por lo que puedo llegar a decir que básicamente mejore un 60% del software de la empresa, hasta el momento de mi salida, ya que en mi ingreso a la empresa la app estaba en su versión beta.",
+    "PROJ1":"Clon básico de una aplicación para el registro de tareas y creación de tableros. Posee pantallas de logueo, registro, inicio, tableros. Creado con Angular 15, utilizando TailwindsCss para los estilos y el CDK de Angular Material para agregar distintas características como drag and drop.",
+    "PROJ2":"Maquetado de una tienda de productos ecológicos, utilizando HTML y SCSS solamente. Un maquetado simple y sencillo siguiendo un diseño base en Figma y agregando toques personales al diseño.",
+    "PROJ3":"Diseño personal en base a diferentes referencias en la web, con diseño responsivo. Proyecto en el cual puse en práctica mis nuevos conocimientos en React js y Tailwind Css creando algo simple y funcional.",
+    "ABOUTME":"Soy Oriana Bautista, una joven latina y estudiante de ingeniería informática, apasionada por el desarrollo web y en constante aprendizaje. Durante más de un año, lideré el equipo de desarrollo frontend en Action Tracker Solutions, una empresa con sede en Barcelona, donde perfeccioné mis habilidades técnicas y de liderazgo. Soy bilingüe en español e inglés, aunque aún estoy perfeccionando mi fluidez en inglés hablado. Sin embargo, tengo una sólida comprensión del idioma y me comunico, leo y entiendo de manera efectiva. Me considero una persona activa, perseverante y en constante actualización con las nuevas tecnologías, siempre buscando cómo integrarlas en mis proyectos personales. Mi objetivo es crecer profesionalmente dentro de una empresa que valore el desarrollo mutuo, donde pueda aportar valor y, al mismo tiempo, seguir aprendiendo y evolucionando.",
+    "FOOTER":"Creado en",
+    "CV":"Currículum"
 }
