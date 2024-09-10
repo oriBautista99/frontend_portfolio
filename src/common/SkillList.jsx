@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
 import { UilHtml5,UilCss3Simple,UilJavaScript,UilHome,UilLayerGroup, UilApps, UilChartBar,UilRss, UilCalendarAlt, UilReact  } from '@iconscout/react-unicons'
 import {useTheme} from '../common/ThemeContext';
+import { useState } from 'react';
 
 function SkillList({icon,skill,color, type, number}) {
+
+  const [isHovered, setIsHovered] = useState(false);
 
   const {theme} = useTheme();
   const iconAngular = theme == 'light' ? '/assets/angular.svg' : '/assets/angular_dark.svg';
@@ -43,8 +46,12 @@ function SkillList({icon,skill,color, type, number}) {
     );    
   }else{
     return (
-      <div className={`relative py-1 px-2 w-full h-full rounded-md border-2 border-${color} text-textColor dark:text-textColorDark text-sm font-normal cursor-pointer  bg-opacity-10 ${bgColor}`}>
+      <div className={`relative py-1 px-2 w-full h-full rounded-md border-2 border-${color} text-textColor dark:text-textColorDark text-sm font-normal cursor-pointer  bg-opacity-10 ${bgColor}`}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {iconsMap[icon]}
+        <p className={` ${isHovered ? 'text-current' : 'text-transparent'} text-start text-[14px]`}>{skill}</p>
         <span className='absolute bottom-1 right-2'>{number}%</span>
       </div>
     );

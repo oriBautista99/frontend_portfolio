@@ -1,4 +1,4 @@
-import CV from '/public/assets/OrianaBautista__CV.pdf';
+import CV from '/public/assets/OrianaBautista_CV.pdf';
 // import  {useTypewriter}  from 'react-simple-typewriter'
 import { UilGithub, UilLinkedin, UilFileDownloadAlt  } from '@iconscout/react-unicons'
 import { useTranslation } from 'react-i18next';

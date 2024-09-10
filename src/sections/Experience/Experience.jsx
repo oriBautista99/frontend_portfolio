@@ -48,41 +48,31 @@ function Experience() {
                 }
             ]
         },
-        // {
-        //     id: '02',
-        //     company: 'Prisma Hexagon',
-        //     position: 'Frontend Developer',
-        //     descripcion: `I collaborated with the Frontend development in the admin panel,
-        //      as well as administration panel, as well as adjustments and implementation of 
-        //      modules for the base CRM system with the Angular framework (TypeScript) with 
-        //      framework Angular (TypeScript) using TailwindCSS.`,
-        //     time: '06/2021 - 08/2021',
-        //     tasks: [
-        //         'Development admin panel'
-        //     ],
-        //     skills: [
-        //         {
-        //             name: 'Angular',
-        //             color: 'angular',
-        //             icon: 'angular'
-        //         },
-        //         {
-        //             name: 'TailwindCss',
-        //             color: 'tailwind',
-        //             icon: 'tailwind'
-        //         },
-        //         {
-        //             name: 'CSS',
-        //             color: 'css',
-        //             icon: 'css'
-        //         },
-        //         {
-        //             name: 'TypeScript',
-        //             color: 'ts',
-        //             icon: 'ts'
-        //         }
-        //     ]
-        // }
+        {
+            id: '02',
+            company: 'Prisma Hexagon',
+            position: 'Frontend Developer',
+            descripcion: `EXP2`,
+            time: '06/2021 - 08/2021',
+            tasks: [],
+            skills: [
+                {
+                    name: 'Angular',
+                    color: 'angular',
+                    icon: 'angular'
+                },
+                {
+                    name: 'TailwindCss',
+                    color: 'tailwind',
+                    icon: 'tailwind'
+                },
+                {
+                    name: 'TypeScript',
+                    color: 'ts',
+                    icon: 'ts'
+                }
+            ]
+        }
     ];
 
     const { t } = useTranslation();
