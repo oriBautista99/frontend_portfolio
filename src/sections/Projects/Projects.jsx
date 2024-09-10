@@ -10,7 +10,7 @@ function Projects() {
         {
             id: '01',
             title: 'Clone Trello',
-            link: '#',
+            link: 'https://trello-clone-or99.netlify.app',
             repositorie: 'https://github.com/oriBautista99/trello-clone.git',
             descripcion: `PROJ1`,
             skills: [
