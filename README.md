@@ -9,7 +9,7 @@ This is a React 18 project built with Vite. It provides a fast and optimized dev
 ### Information
 - Title:  `Frontend Portfolio`
 - Authors:  `Oriana Bautista (@oribautista99)`
-- Site: [https://oribautista99.netlify.app/]()
+- Site: [https://oribautista99.netlify.app/](https://oribautista99.netlify.app/)
 
 ## 🚀 Getting Started
 
@@ -31,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repository-name
+    cd frontend_portfolio
     ```
 3. Install the dependencies:
     ``` bash
