@@ -43,9 +43,9 @@ function Projects() {
         },
         {
             id: '02',
-            title: 'Eco Store',
-            link: 'https://oribautista99.github.io/eco-store/',
-            repositorie: 'https://github.com/oriBautista99/eco-store.git',
+            title: 'Tip Calculator',
+            link: 'https://oribautista99.github.io/tip-calculator/',
+            repositorie: 'https://github.com/oriBautista99/tip-calculator.git',
             descripcion: `PROJ2`,
             skills: [
                 {
@@ -54,19 +54,24 @@ function Projects() {
                     icon: 'html'
                 },
                 {
-                    name: 'SCSS',
+                    name: 'CSS',
                     color: 'pink-500',
                     icon: 'scss'
+                },
+                {
+                    name: 'JavaScript',
+                    color: 'js',
+                    icon: 'js'
                 }
             ],
             images: [
                 {
                     alt: 'Eco Store',
-                    src: '/assets/eco_home.png'
+                    src: '/assets/splitter_desktop.png'
                 },
                 {
                     alt: 'Eco Store',
-                    src: '/assets/eco_products.png'
+                    src: '/assets/splitter_mobile.png'
                 }
             ]
         },

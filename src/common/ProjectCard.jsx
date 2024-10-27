@@ -14,6 +14,17 @@ function ProjectCard({image, link, repositorie, title, description, skills}) {
     <SkillList key={skill.name} icon={skill.icon} skill={skill.name} color={skill.color} />
   );
   const colorIcon = theme == 'light' ? '#222' : '#fff';
+
+  const linkButton = () => {
+    if(!title.includes('Trello')){
+      return (<a className="flex space-x-2 bg-tooterTextColor bg-opacity-25 p-2 rounded-lg" href={link} target="_blank">
+        <UilLink  size="24" color={colorIcon}/>
+        <span>Preview</span>
+      </a>);           
+    }
+  };
+
+
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-12">
       <div className="row-start-2 md:row-start-1 col-span-1 flex flex-col gap-4 text-base">
@@ -31,10 +42,9 @@ function ProjectCard({image, link, repositorie, title, description, skills}) {
             <UilGithub  size="24" color={colorIcon}/>
             <span>Code</span>
           </a>
-          <a className="flex space-x-2 bg-tooterTextColor bg-opacity-25 p-2 rounded-lg" href={link} target="_blank">
-            <UilLink  size="24" color={colorIcon}/>
-            <span>Preview</span>
-          </a>
+          {
+            linkButton()
+          }
         </div>
       </div>
     </div>
